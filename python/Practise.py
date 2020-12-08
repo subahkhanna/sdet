@@ -1,0 +1,6 @@
+Names = input("Enter name:")
+print("My name is : "+Names)
+Age = int(input("Enter Age: "))
+#print("My age is : "+ Age)
+afterage = str((2020 - Age)+100)
+print(Names + "age will be after 100 years is "+ afterage)
