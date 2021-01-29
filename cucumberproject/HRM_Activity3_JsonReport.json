@@ -1,0 +1,250 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-21T06:00:40.658Z",
+        "line": 25,
+        "name": "Add multiple employees using an the Examples table",
+        "description": "",
+        "id": "adding-multiple-employees;add-multiple-employees-using-an-the-examples-table;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6944454400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Welcome page",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1523419100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter\"orange\"and\"orangepassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orange",
+                  "offset": 11
+                },
+                {
+                  "val": "orangepassword123",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.user_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1833613700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to PIM option",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.NavigatetoPIM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594153500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the add button to add new employee",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.ClickonAdd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124345600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Fill out the necessary details\"Denise\"and\"Russo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Denise",
+                  "offset": 31
+                },
+                {
+                  "val": "Russo",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.Fill_out_the_necessary_detailsand(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3960317300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Save and Verify that the employees have been created\"2521\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2521",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.Save_and_Verify_that_the_employees_have_been_createdand(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM_Activity_3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-21T06:00:55.749Z",
+        "line": 27,
+        "name": "Add multiple employees using an the Examples table",
+        "description": "",
+        "id": "adding-multiple-employees;add-multiple-employees-using-an-the-examples-table;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4918477900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Welcome page",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1059592400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter\"orange\"and\"orangepassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orange",
+                  "offset": 11
+                },
+                {
+                  "val": "orangepassword123",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.user_enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1705411200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to PIM option",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.NavigatetoPIM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478018700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the add button to add new employee",
+            "match": {
+              "location": "stepdefinition.AddMultipleEmployees.ClickonAdd()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280910000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Fill out the necessary details\"Amy\"and\"Russo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amy",
+                  "offset": 31
+                },
+                {
+                  "val": "Russo",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.Fill_out_the_necessary_detailsand(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3255222700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Save and Verify that the employees have been created\"2522\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2522",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefinition.AddMultipleEmployees.Save_and_Verify_that_the_employees_have_been_createdand(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM_Activity_3"
+          }
+        ]
+      }
+    ],
+    "name": "Adding multiple employees",
+    "description": "",
+    "id": "adding-multiple-employees",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HRM_Activity3.feature",
+    "tags": [
+      {
+        "name": "@HRM_Activity_3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

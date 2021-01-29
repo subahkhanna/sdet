@@ -1,0 +1,140 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-21T11:39:44.278Z",
+        "line": 5,
+        "name": "To create a job vacancy for devops engineer",
+        "description": "",
+        "id": "creating-job-vacancy;to-create-a-job-vacancy-for-devops-engineer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5344486600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login page.",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 640287900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters\"orange\"and\"orangepassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orange",
+                  "offset": 12
+                },
+                {
+                  "val": "orangepassword123",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.CreateJobVacancy.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: Failed to decode response from marionette\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-C628KP5\u0027, ip: \u00279.79.244.153\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9.1\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 9364, moz:profile: C:\\Users\\SubahKhanna\\AppDat..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d4593135-6106-4d87-b0e7-4d7ff4446673\n*** Element info: {Using\u003dpartial link text, value\u003dWelcome}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByPartialLinkText(RemoteWebDriver.java:392)\r\n\tat org.openqa.selenium.By$ByPartialLinkText.findElements(By.java:245)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:231)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:228)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat stepdefinition.CreateJobVacancy.RecruitmentPage(CreateJobVacancy.java:79)\r\n\tat ✽.Navigate to recruitment page(file:///C:/Users/SubahKhanna/eclipse-workspace/CucumberProject_Activities/src/test/java/Features/HRM_Activity1.feature:11)\r\n",
+              "duration": 905093600,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Navigate to recruitment page",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.RecruitmentPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click on the Vacancies menu item to navigate to the vacancies page",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.VacanciesPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click on the Add button to navigate to the Add Job Vacancy form",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.AddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Fill out the necessary details and Click the Save button to save the vacancy",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.AddVacancies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Verify that the vacancy was created",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.VerifyVacancies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Close browser.",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM_Activity_1"
+          }
+        ]
+      }
+    ],
+    "name": "Creating job vacancy",
+    "description": "",
+    "id": "creating-job-vacancy",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HRM_Activity1.feature",
+    "tags": [
+      {
+        "name": "@HRM_Activity_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

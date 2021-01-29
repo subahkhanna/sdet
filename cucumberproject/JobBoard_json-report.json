@@ -1,0 +1,480 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T04:26:22.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5108821500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Creating new user",
+        "description": "",
+        "id": "test-the-job-board-functionalities;creating-new-user",
+        "after": [
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 913675200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User logs on to Jobboard admin page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.adminPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4703478600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User proceeds to add new user",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.enterCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1339736500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the new user info",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.adduserInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119395100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the new user has been created",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.verifyUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1118558100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser for jobboard activity",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardTests"
+          },
+          {
+            "name": "@createuser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T04:26:36.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4327244300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Apply for a job",
+        "description": "",
+        "id": "test-the-job-board-functionalities;apply-for-a-job",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1418089100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigates to job board page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.jobboardPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1947460100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User searches for a specific job",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.searchJob()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1158510800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User gets the job details using xpath",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.getJobDetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 971738800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser for jobboard activity",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardTests"
+          },
+          {
+            "name": "@jobapply"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T04:26:45.919Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4325777700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Post a new job",
+        "description": "",
+        "id": "test-the-job-board-functionalities;post-a-new-job",
+        "after": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1352360800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates to job board page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.jobboardPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1045838600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on post job button",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.gotoPostJob()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1774032800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fills in job details with email \"admin_sk12588@gmail.com\" title \"SDET Automation with 12+ years\" location \"India\" jd \"This is a new SDET job\" url \"abcka@testlabs.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin_sk12588@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "SDET Automation with 12+ years",
+                  "offset": 70
+                },
+                {
+                  "val": "India",
+                  "offset": 112
+                },
+                {
+                  "val": "This is a new SDET job",
+                  "offset": 123
+                },
+                {
+                  "val": "abcka@testlabs.com",
+                  "offset": 152
+                }
+              ],
+              "location": "stepdefinition.jobBoard_stepdef.addjobDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 453895800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Submit the new job posting",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.submitJob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1647146200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify the new job is visible in Job listing page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.verifyPosting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019081700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the browser for jobboard activity",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardTests"
+          },
+          {
+            "name": "@jobpost"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T04:26:57.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4328713400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Post a new job using example table",
+        "description": "",
+        "id": "test-the-job-board-functionalities;post-a-new-job-using-example-table;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1367760200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User navigates to job board page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.jobboardPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006809000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User clicks on post job button",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.gotoPostJob()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1725413800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User fills in job details with email \"admin_sk123398@gmail.com\" title \"SDET Automation with 12+ years\" location \"India\" jd \"This is a new job\" url \"abgwp@testlabs.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin_sk123398@gmail.com",
+                  "offset": 38
+                },
+                {
+                  "val": "SDET Automation with 12+ years",
+                  "offset": 71
+                },
+                {
+                  "val": "India",
+                  "offset": 113
+                },
+                {
+                  "val": "This is a new job",
+                  "offset": 124
+                },
+                {
+                  "val": "abgwp@testlabs.com",
+                  "offset": 148
+                }
+              ],
+              "location": "stepdefinition.jobBoard_stepdef.addjobDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 625096800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Submit the new job posting",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.submitJob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1608286700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify the new job is visible in Job listing page",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.verifyPosting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1041917700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Close the browser for jobboard activity",
+            "match": {
+              "location": "stepdefinition.jobBoard_stepdef.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobBoardTests"
+          },
+          {
+            "name": "@examplepost"
+          }
+        ]
+      }
+    ],
+    "name": "Test the job board functionalities",
+    "description": "",
+    "id": "test-the-job-board-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/jobboard.feature",
+    "tags": [
+      {
+        "name": "@JobBoardTests",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

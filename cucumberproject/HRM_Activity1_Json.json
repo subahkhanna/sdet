@@ -1,0 +1,144 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-21T06:07:25.050Z",
+        "line": 5,
+        "name": "To create a job vacancy for devops engineer",
+        "description": "",
+        "id": "creating-job-vacancy;to-create-a-job-vacancy-for-devops-engineer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6622270600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login page.",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1244268500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters\"orange\"and\"orangepassword123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orange",
+                  "offset": 12
+                },
+                {
+                  "val": "orangepassword123",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinition.CreateJobVacancy.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2183162800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Navigate to recruitment page",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.RecruitmentPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1315162600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the Vacancies menu item to navigate to the vacancies page",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.VacanciesPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542790700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the Add button to navigate to the Add Job Vacancy form",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.AddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090095300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Fill out the necessary details and Click the Save button to save the vacancy",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.AddVacancies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2497899500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify that the vacancy was created",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.VerifyVacancies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1326941300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close browser.",
+            "match": {
+              "location": "stepdefinition.CreateJobVacancy.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM_Activity_1"
+          }
+        ]
+      }
+    ],
+    "name": "Creating job vacancy",
+    "description": "",
+    "id": "creating-job-vacancy",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HRM_Activity1.feature",
+    "tags": [
+      {
+        "name": "@HRM_Activity_1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
